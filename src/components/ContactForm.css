@@ -1,0 +1,23 @@
+#contacto {
+    background: rgba(74, 144, 226, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contacto {
+    max-width: 600px; /* Limita el ancho */
+    margin: 40px auto; /* Centra horizontalmente */
+    padding: 20px; /* Añade espacio interior */
+  }
