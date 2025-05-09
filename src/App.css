@@ -1,1 +1,30 @@
-/* Definir una imagen de fondo para todas las secciones */
+/* Asegura que toda la estructura ocupe 100% de la altura y use flexbox */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Cambiado de min-height a height */
+}
+
+.app-content {
+  flex: 1; /* El contenido crece para ocupar el espacio disponible */
+  overflow: hidden; /* Evita que se desborde el contenido */
+}
+
+footer {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+

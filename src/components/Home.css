@@ -1,27 +1,43 @@
 .home-container {
-    background-image: url('/img/fondo.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: white;
-  }
-  
-  .titulo-principal {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
-  }
-  
-  .texto-presentacion {
-    font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 1rem;
-    border-radius: 10px;
-  }
-  
-  .noticias h2, .galeria h2 {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #000;
-  }
-  
+  background-image: url('/img/fondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 140px; /* <- suficiente espacio para el footer */
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* Asegura que el footer no se superponga al contenido */
+
+.galeria {
+  width: 100%;
+  overflow: hidden; /* Esto puede ayudar a evitar desbordes */
+}
+
+.galeria .carousel {
+  width: 100%;
+  max-width: 100%;  /* Evita que el carrusel tenga un máximo mayor al 100% */
+  margin: 0;  /* Elimina cualquier margen por defecto */
+  padding: 0; /* Elimina cualquier relleno por defecto */
+}
+
+.galeria .carousel-item {
+  width: 100%;
+}
+
+.galeria .carousel img {
+  width: 100%;
+  height: auto;
+  display: block;  /* Esto puede ayudar a eliminar el espacio debajo de las imágenes */
+}
+
+/* Asegura que el contenedor del Home ocupe el 100% del ancho */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
