@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './ContactForm.css'
+import '../styles/ContactForm.css'
 
 export default function ContactForm() {
   const [nombre, setNombre] = useState('')

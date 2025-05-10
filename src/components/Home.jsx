@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
-import './Home.css';
+import '../styles/Home.css';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Container className="mb-5">
         <Row>
           <Col md={6}>
-            <img src="./public/entrada.jpg" alt="Municipalidad" className="img-fluid rounded shadow" />
+            <img src="/src/assets/entrada.jpg" alt="Municipalidad" className="img-fluid rounded shadow" />
           </Col>
           <Col md={6} className="d-flex align-items-center">
             <p className="texto-presentacion">
@@ -59,13 +59,13 @@ const Home = () => {
     <h2 className="text-center mb-4">Galería de Imágenes</h2>
     <Carousel fade>
       <Carousel.Item>
-        <img className="d-block w-100" src="/logo_cholchol.png" alt="Imagen 1" />
+        <img className="d-block w-100" src="/src/assets/logo_cholchol.png" alt="Imagen 1" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="/fondo.jpg" alt="Imagen 2" />
+        <img className="d-block w-100" src="/src/assets/fondo.jpg" alt="Imagen 2" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="/img/galeria3.jpg" alt="Imagen 3" />
+        <img className="d-block w-100" src="/src/assets/img/galeria3.jpg" alt="Imagen 3" />
       </Carousel.Item>
     </Carousel>
   </Container>

@@ -8,8 +8,8 @@ const SaludSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Columna de imágenes */}
         <div className="flex flex-col items-center gap-4">
-          <img src="/imagenes/salud1.jpg" alt="Salud 1" className="rounded-lg shadow-md w-full" />
-          <img src="/imagenes/salud2.jpg" alt="Salud 2" className="rounded-lg shadow-md w-full" />
+          <img src="/src/assets/imagenes/salud1.jpg" alt="Salud 1" className="rounded-lg shadow-md w-full" />
+          <img src="/src/assets/imagenes/salud2.jpg" alt="Salud 2" className="rounded-lg shadow-md w-full" />
         </div>
 
         {/* Columna de texto */}

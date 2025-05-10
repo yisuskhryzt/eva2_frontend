@@ -1,6 +1,6 @@
 // Navbar.jsx
 import React, { useState } from 'react';
-import './Navbar.css';
+import '../styles/Navbar.css';
 import Sections from './Sections';
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="navbar-container">
         <div className="navbar-logo">
           <a href="#home" onClick={() => handleNavClick('home')}>
-            <img src="./logo_cholchol.png" alt="Logo" />
+            <img src="/src/assets/logo_cholchol.png" alt="Logo" />
           </a>
         </div>
 
