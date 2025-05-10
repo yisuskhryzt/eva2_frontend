@@ -2,6 +2,7 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 import Home from'./Home';
+import SaludSection from './SaludSection';
 
 const Sections = ({ activeSection }) => {
   return (
@@ -13,8 +14,7 @@ const Sections = ({ activeSection }) => {
       )}
       {activeSection === 'salud' && (
         <section>
-          <h2>Salud</h2>
-          <p>Contenido de la sección de Salud</p>
+          <SaludSection />
         </section>
       )}
       {activeSection === 'educacion' && (

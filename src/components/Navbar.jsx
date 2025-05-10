@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React, { useState } from 'react';
 import './Navbar.css';
-import Sections from './Sections'; // Importa el componente Sections
+import Sections from './Sections';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
