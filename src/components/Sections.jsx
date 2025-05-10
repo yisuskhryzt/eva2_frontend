@@ -1,8 +1,8 @@
 // Sections.jsx
 import React from 'react';
 import ContactForm from './ContactForm';
-import Home from'./Home';
-import SaludSection from './SaludSection';
+import Home from'../pages/Home';
+import SaludSection from '../pages/SaludSection';
 
 const Sections = ({ activeSection }) => {
   return (
