@@ -23,6 +23,9 @@ export default function ContactForm() {
       setNombre('');
       setEmail('');
       setMensaje('');
+
+      setTimeout(() => setExito(''), 3000);
+
     }
   }
 
