@@ -6,11 +6,11 @@ import Sections from './Sections';
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [menuAbierto, setMenuAbierto] = useState(false);
-  const [scrolled, setScrolled] = useState(false); // 👈 NUEVO estado
+  const [scrolled, setScrolled] = useState(false);
 
-  const handleNavClick = (section) => {
+  const handleNavClick = (section, id) => {
     setActiveSection(section);
-    setMenuAbierto(false); // Oculta el menú en móviles
+    setMenuAbierto(false);
   };
 
   const handleToggle = () => {

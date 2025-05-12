@@ -19,6 +19,10 @@ export default function ContactForm() {
     } else {
       setError('')
       setExito('Mensaje enviado correctamente')
+
+      setNombre('');
+      setEmail('');
+      setMensaje('');
     }
   }
 
@@ -39,8 +43,8 @@ export default function ContactForm() {
           <textarea className="form-control" value={mensaje} onChange={e => setMensaje(e.target.value)} />
         </div>
         <button type="submit" className="btn btn-success">Enviar</button>
-        {error && <div className="text-danger mt-2">{error}</div>}
-        {exito && <div className="text-success mt-2">{exito}</div>}
+        {error && <div className="toast-error">{error}</div>}
+        {exito && <div className="toast-success">{exito}</div>}
       </form>
     </div>
   )

@@ -20,7 +20,7 @@ const Reloj = () => {
   };
 
   const formatearHora = (fecha) => {
-    return fecha.toLocaleTimeString('es-CL');
+    return fecha.toLocaleTimeString('es-CL',{ hour12: false });
   };
 
   return (
