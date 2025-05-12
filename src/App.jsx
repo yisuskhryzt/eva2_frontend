@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import './App.css';
 import Sections from './components/Sections';
 import Header from './components/Header';
+import IntroModal from './components/IntroModal/IntroModal';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Sections />
       </main>
       <Footer />
+      <IntroModal />
     </div>
   );
 }

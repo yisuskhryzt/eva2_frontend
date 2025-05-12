@@ -12,7 +12,7 @@ const Home = () => {
       <Container className="mb-5">
         <Row>
           <Col md={6}>
-            <img src="./public/entrada.jpg" alt="Municipalidad" className="img-fluid rounded shadow" />
+            <img src="/entrada.jpg" alt="Municipalidad" className="img-fluid rounded shadow" />
           </Col>
           <Col md={6} className="d-flex align-items-center">
             <p className="texto-presentacion">
