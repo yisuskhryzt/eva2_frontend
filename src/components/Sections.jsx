@@ -9,23 +9,23 @@ const Sections = ({ activeSection }) => {
   return (
     <div>
       {activeSection === 'home' && (
-        <section>
+        <section id="home">
         <Home />
         </section>
       )}
       {activeSection === 'salud' && (
-        <section>
+        <section id="salud">
           <SaludSection />
         </section>
       )}
       {activeSection === 'educacion' && (
-        <section>
+        <section id="educacion">
           <h2>Educación</h2>
           <p>Contenido de la sección de Educación</p>
         </section>
       )}
       {activeSection === 'aseo' && (
-        <section>
+        <section id="aseo">
           <h2>Aseo y Ornato</h2>
           <p>Contenido de la sección de Aseo y Ornato</p>
         </section>
