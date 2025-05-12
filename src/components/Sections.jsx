@@ -1,6 +1,6 @@
 // Sections.jsx
 import React from 'react';
-import ContactForm from './ContactForm';
+import ContactForm from './ContactForm/ContactForm';
 import Home from'./Home';
 import SaludSection from './SaludSection';
 import './Sections.css';
