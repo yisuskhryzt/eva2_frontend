@@ -1,11 +1,12 @@
 // Navbar.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Sections from './Sections';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [menuAbierto, setMenuAbierto] = useState(false);
+  const [scrolled, setScrolled] = useState(false); // 👈 NUEVO estado
 
   const handleNavClick = (section) => {
     setActiveSection(section);
@@ -16,9 +17,19 @@ const Navbar = () => {
     setMenuAbierto(!menuAbierto);
   };
 
+  // 👇 Detecta scroll para agregar sombra y opacidad
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10); // cambia si scroll > 10px
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-      <nav className="navbar-container">
+      <nav className={`navbar-container ${scrolled ? 'navbar-scrolled' : ''}`}>
         <div className="navbar-logo">
           <a href="#home" onClick={() => handleNavClick('home')}>
             <img src="./logo_cholchol.png" alt="Logo" />
@@ -38,12 +49,9 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      {/* Llama a Sections y pasa activeSection como prop */}
       <Sections activeSection={activeSection} />
     </>
   );
 };
 
 export default Navbar;
-
-

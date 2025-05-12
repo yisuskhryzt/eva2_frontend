@@ -1,5 +1,4 @@
 .home-container {
-  background-image: url('/img/fondo.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -9,35 +8,24 @@
   min-height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
-}
-/* Asegura que el footer no se superponga al contenido */
-
-.galeria {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  overflow: hidden; /* Esto puede ayudar a evitar desbordes */
 }
 
 .galeria .carousel {
   width: 100%;
-  max-width: 100%;  /* Evita que el carrusel tenga un máximo mayor al 100% */
-  margin: 0;  /* Elimina cualquier margen por defecto */
-  padding: 0; /* Elimina cualquier relleno por defecto */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.galeria .carousel-item {
-  width: 100%;
-}
-
-.galeria .carousel img {
-  width: 100%;
-  height: auto;
-  display: block;  /* Esto puede ayudar a eliminar el espacio debajo de las imágenes */
-}
-
-/* Asegura que el contenedor del Home ocupe el 100% del ancho */
-.home-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.carousel-img {
+  width: auto;
+  height: 400px;      /* o el tamaño que tú desees */
+  max-width: 100%;    /* Para que no se desborde en pantallas pequeñas */
+  object-fit: contain;  /* Esto asegura que NO se recorte la imagen */
+  display: block;
+  margin: 0 auto;     /* Centra horizontalmente si son más pequeñas */
 }
 

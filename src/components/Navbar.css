@@ -6,7 +6,28 @@
   background-color: #122c75;
   padding: 10px 20px;
   flex-wrap: wrap;
-  position: relative;
+
+  position: fixed; /* <- CAMBIO CLAVE */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté sobre todo */
+}
+
+.navbar-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar-scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(18, 44, 117, 0.95); /* mismo azul, más opaco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: all 0.3s ease;
 }
 
 /* Botón hamburguesa */
@@ -44,31 +65,6 @@
 .navbar-links li:hover {
   background-color: #0a4e9b;
   border-radius: 5px;
-}
-
-/* Secciones */
-section {
-  padding: 0; /* Elimina el padding para evitar espacio extra */
-  height: 100vh; /* Asegura que el section tenga al menos el 100% de la altura de la ventana */
-  background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco con transparencia */
-  background-image: url('/fondo.jpg'); /* Ruta de la imagen de fondo */
-  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-attachment: fixed;
-  color: black; /* Asegura que el texto sea legible sobre el fondo */
-  display: flex;
-  flex-direction: column; /* Alinea contenido de manera vertical */
-  justify-content: center;
-  align-items: center;
-  text-align: center; /* Alinea el texto al centro */
-  position: relative;
-}
-
-
-section h2, section p {
-  z-index: 1; /* Asegura que el texto no quede detrás del fondo */
-  position: relative;
 }
 
 h1 {

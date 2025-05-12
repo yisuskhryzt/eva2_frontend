@@ -3,6 +3,7 @@ import React from 'react';
 import ContactForm from './ContactForm';
 import Home from'./Home';
 import SaludSection from './SaludSection';
+import './Sections.css';
 
 const Sections = ({ activeSection }) => {
   return (

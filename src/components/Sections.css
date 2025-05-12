@@ -1,0 +1,20 @@
+section {
+  padding: 40px 20px;  /* Asegúrate de que este padding no cree un espacio extra abajo */
+  min-height: 100vh;  /* Se asegura que el fondo cubra al menos toda la pantalla */
+  background-color: rgba(255, 255, 255, 0.6);
+  background-image: url('/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;  /* Puede ser scroll en lugar de fixed si notas algún problema */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;  /* Asegúrate de que no haya margen extra alrededor */
+}
+
