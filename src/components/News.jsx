@@ -9,48 +9,48 @@ const News = () => {
       id: 1,
       title: "Municipalidad realizará operativo de esterilización canina",
       summary: "El próximo sábado 20 de mayo se realizará un operativo gratuito de esterilización para mascotas en la plaza central.",
-      image: "https://municholchol.cl/wp-content/uploads/2023/04/Firma-convenio-1024x576.jpeg",
-      date: "12 de mayo, 2023",
+      image: "https://www.cerronavia.cl/wp-content/uploads/2023/09/Calendario-operativo-gratuito-de-esterilizacio%CC%81n-para-perros-y-gatos.jpg",
+      date: "12 de mayo, 2025",
       category: "Servicios"
     },
     {
       id: 2,
       title: "Ceremonia de entrega de subsidios habitacionales",
       summary: "Más de 50 familias de nuestra comuna recibieron sus certificados de subsidio habitacional en emotiva ceremonia presidida por el alcalde.",
-      image: "https://municholchol.cl/wp-content/uploads/2022/07/9-Rendir-cuenta-publica-de-todos-los-programas-incluyendo-los-convenios-y-recursos-propios-usando-en-la-gestion-anual.-1024x768.jpeg",
-      date: "10 de mayo, 2023",
+      image: "https://serviumagallanes.minvu.gob.cl/wp-content/uploads/2023/02/DSC_0429.jpg",
+      date: "10 de mayo, 2025",
       category: "Eventos"
     },
     {
       id: 3,
       title: "Lanzamiento programa de emprendimiento local",
       summary: "La municipalidad junto a SERCOTEC lanzaron el programa de apoyo al emprendimiento local con fondos de hasta $2 millones.",
-      image: "https://municholchol.cl/wp-content/uploads/2022/07/4-Taller-programa-PROGYSO.-1024x583.jpeg",
-      date: "8 de mayo, 2023", 
+      image: "https://www.portalagrochile.cl/wp-content/uploads/2025/02/Sercotec-y-el-Gobierno-Regional-abren-postulacion-a-programa-Abeja-Emprende.jpg",
+      date: "8 de mayo, 2025", 
       category: "Desarrollo"
     },
     {
       id: 4,
       title: "Inauguración de nueva sede social en sector rural",
       summary: "Con la presencia de autoridades locales se inauguró la nueva sede social que beneficiará a más de 200 familias del sector.",
-      image: "https://municholchol.cl/wp-content/uploads/2022/07/Foto-Recepcion-equipo-fonasa-movil-1024x768.jpg",
-      date: "5 de mayo, 2023",
+      image: "https://serviumaule.minvu.gob.cl/wp-content/uploads/2025/03/SERVIU-Sede-Vida-Nueva-web.png",
+      date: "5 de mayo, 2025",
       category: "Infraestructura"
     },
     {
       id: 5,
       title: "Programa de ayudas sociales para adultos mayores",
       summary: "La municipalidad anuncia un nuevo programa de ayuda social dirigido a adultos mayores de la comuna.",
-      image: "https://municholchol.cl/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-05-at-14.59.31-1024x768.jpeg",
-      date: "3 de mayo, 2023",
+      image: "https://cdn.www.gob.pe/uploads/document/file/5214228/27092023-adultos-mayores-capacitados-modaliddades-estafa-iquitos.jpg",
+      date: "3 de mayo, 2025",
       category: "Social"
     },
     {
       id: 6,
       title: "Calendario de talleres culturales para el mes de mayo",
       summary: "El departamento de cultura presenta un nutrido calendario de talleres gratuitos para la comunidad durante el mes de mayo.",
-      image: "https://municholchol.cl/wp-content/uploads/2022/07/12-Capacitacion-computacion-basica-para-adultos-que-trabajen-como-monitor-intercultural-y-TENS-capacitacion-fue-impartida-por-profesionales-de-Municipalidad-de-Nueva-Imperial-1024x768.jpeg",
-      date: "1 de mayo, 2023",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCfQ3ivyWKpk_WHEmQpi1m_be1zZoZMCN8Q&s",
+      date: "1 de mayo, 2025",
       category: "Cultura"
     }
   ];

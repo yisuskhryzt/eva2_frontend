@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="text-center py-5">
-        <h1 className="titulo-principal">Bienvenidos a la Municipalidad</h1>
+        <h1 className="titulo-principal">Bienvenidos a la Municipalidad de Chol-Chol</h1>
       </header>
 
       <section className="hero-section py-4">
