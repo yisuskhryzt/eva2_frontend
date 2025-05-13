@@ -4,6 +4,7 @@ import './App.css';
 import Sections from './components/Sections';
 import Header from './components/Header';
 import IntroModal from './components/IntroModal/IntroModal';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
