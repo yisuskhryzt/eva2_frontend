@@ -2,7 +2,6 @@
 import React from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import Home from'./Home';
-import SaludSection from './SaludSection';
 import './Sections.css';
 
 const Sections = ({ activeSection }) => {
@@ -13,23 +12,7 @@ const Sections = ({ activeSection }) => {
         <Home />
         </section>
       )}
-      {activeSection === 'salud' && (
-        <section id="salud">
-          <SaludSection />
-        </section>
-      )}
-      {activeSection === 'educacion' && (
-        <section id="educacion">
-          <h2>Educación</h2>
-          <p>Contenido de la sección de Educación</p>
-        </section>
-      )}
-      {activeSection === 'aseo' && (
-        <section id="aseo">
-          <h2>Aseo y Ornato</h2>
-          <p>Contenido de la sección de Aseo y Ornato</p>
-        </section>
-      )}
+
       {activeSection === 'contacto' && (
         <section>
           <h2>Contacto</h2>

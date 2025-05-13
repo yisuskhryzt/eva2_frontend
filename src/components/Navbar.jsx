@@ -42,9 +42,6 @@ const Navbar = () => {
 
         <ul className={`navbar-links ${menuAbierto ? 'show' : ''}`}>
           <li className={activeSection === 'home' ? 'active' : ''} onClick={() => handleNavClick('home')}>Inicio</li>
-          <li className={activeSection === 'salud' ? 'active' : ''} onClick={() => handleNavClick('salud')}>Salud</li>
-          <li className={activeSection === 'educacion' ? 'active' : ''} onClick={() => handleNavClick('educacion')}>Educación</li>
-          <li className={activeSection === 'aseo' ? 'active' : ''} onClick={() => handleNavClick('aseo')}>Aseo y Ornato</li>
           <li className={activeSection === 'contacto' ? 'active' : ''} onClick={() => handleNavClick('contacto')}>Contacto</li>
         </ul>
       </nav>
