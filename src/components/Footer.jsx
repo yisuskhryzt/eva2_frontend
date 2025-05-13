@@ -1,5 +1,6 @@
 import React from 'react'
 import Reloj from './Reloj';
+import './Footer.css';
 export default function Footer() {
   return (
     <footer className="bg-primary text-white text-center p-3">

@@ -1,6 +1,5 @@
 section {
   padding: 40px 20px; /* padding general */
-  min-height: 100vh;  /* NO usar height fija */
   background-color: rgba(255, 255, 255, 0.6);
   background-image: url('/fondo.jpg');
   background-size: cover;
@@ -10,7 +9,6 @@ section {
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;  /* ya no center */
   align-items: center;
   text-align: center;
   position: relative;
