@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import './Services.css';
 
 const Services = () => {
   const [activeService, setActiveService] = useState(null);
@@ -93,8 +94,8 @@ const Services = () => {
     <section id="servicios">
       <div>
         <div>
-          <h2 className="display-5 fw-bold text-primary-custom">Servicios Municipales</h2>
-          <p className="lead text-muted">Conoce los servicios que ofrecemos a nuestra comunidad</p>
+          <h1 className="display-6 fw-bold text-white fondo">Servicios Municipales</h1>
+          <h3 className="lead fw-normal text-white fondo">Conoce los servicios que ofrecemos a nuestra comunidad</h3>
         </div>
 
         <div className="row g-4">
@@ -113,11 +114,11 @@ const Services = () => {
                     <i className={`${service.icon} fs-1 text-white`}></i>
                   </div>
                   <h3 className="card-title h5 mb-3 fw-bold">{service.title}</h3>
-                  <p className="card-text text-muted mb-4">{service.description}</p>
+                  <p className="card-text fw-normal mb-4">{service.description}</p>
                   
-                  <div 
-                    className="service-details overflow-hidden" 
-                    style={{ 
+                  <div
+                    className="service-details overflow-hidden"
+                    style={{
                       maxHeight: activeService === service.id ? '200px' : '0',
                       opacity: activeService === service.id ? 1 : 0,
                       transition: 'max-height 0.5s ease, opacity 0.5s ease'
@@ -128,7 +129,7 @@ const Services = () => {
                         <li key={index}>{item}</li>
                       ))}
                     </ul>
-                    <button 
+                    <button
                       className="btn btn-sm btn-outline-primary"
                       onClick={(e) => {
                         e.stopPropagation();
@@ -139,9 +140,9 @@ const Services = () => {
                     </button>
                   </div>
                   
-                  <div 
-                    className="text-primary small fw-semibold mt-2" 
-                    style={{ 
+                  <div
+                    className="text-primary small fw-semibold mt-2"
+                    style={{
                       opacity: activeService !== service.id ? 1 : 0,
                       transition: 'opacity 0.3s ease'
                     }}

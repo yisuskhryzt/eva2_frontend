@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import './News.css'
 
 const News = () => {
   const [visibleItems, setVisibleItems] = useState([]);
@@ -86,8 +87,8 @@ const News = () => {
     <section className="py-5 bg-neutral-100" id="noticias">
       <div className="container py-4">
         <div className="text-center mb-5">
-          <h2 className="display-5 fw-bold text-primary-custom">Noticias y Actualidad</h2>
-          <p className="lead text-muted">Mantente al día con todas las novedades de nuestra comuna</p>
+          <h2 className="display-5 fw-bold text-white fondo">Noticias y Actualidad</h2>
+          <p className="lead fw-normal text-white fondo">Mantente al día con todas las novedades de nuestra comuna</p>
         </div>
 
         <div className="row g-4">

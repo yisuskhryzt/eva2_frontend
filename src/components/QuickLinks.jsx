@@ -63,8 +63,8 @@ const QuickLinks = () => {
     <section className="py-5 bg-primary-custom" id="tramites">
       <div className="container py-4">
         <div className="text-center mb-5">
-          <h2 className="display-5 fw-bold text-white">Trámites en Línea</h2>
-          <p className="lead text-white opacity-75">Accede rápidamente a los servicios más utilizados</p>
+          <h2 className="display-5 fw-bold text-white fondo">Trámites en Línea</h2>
+          <p className="lead fw-normal text-white fondo">Accede rápidamente a los servicios más utilizados</p>
         </div>
 
         <div className="row g-4 justify-content-center">

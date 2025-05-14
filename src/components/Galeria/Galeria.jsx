@@ -6,7 +6,7 @@ const Galeria = () => {
   return (
     <section className="galeria py-5">
       <Container fluid>
-        <h2 className="text-center mb-4">Galería de Imágenes</h2>
+        <h2 className="text-center mb-4 display-5 fw-bold text-white fondo">Galería de Imágenes</h2>
         <Carousel fade>
           <Carousel.Item>
             <img className="d-block carousel-img" src="/1.jpg" alt="Imagen 1" />
