@@ -1,4 +1,5 @@
 /* ContactForm.css */
+/* Estilo para container de formulario */
 #contacto {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5px);
@@ -10,30 +11,7 @@
   padding: 20px;
 }
 
-.toast-success {
-  position: fixed;
-  top: 20%; /* Puedes ajustar esto a 40% si lo quieres más centrado verticalmente */
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #28a745;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-  animation: fadeOut 4s forwards;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-}
-
 h3 {
     text-align: center;
     margin-top: 20px;
 }
-
-#contacto {
-    max-width: 600px; /* Limita el ancho */
-    margin: 40px auto; /* Centra horizontalmente */
-    padding: 20px; /* Añade espacio interior */
-  }
