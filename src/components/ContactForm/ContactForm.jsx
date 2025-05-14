@@ -38,12 +38,12 @@ export default function ContactForm() {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    bgcolor: 'rgba(255, 255, 255, 0.28)',
+    bgcolor: 'rgba(255, 255, 255, 0.54)',
     boxShadow: 24,
     p: 4,
     borderRadius: 4,
     backdropFilter: 'blur(15px)',
-    border: '1px solid rgba(255, 255, 255, 0.25)',
+    border: '1px solid rgba(255, 255, 255, 0.44)',
     color: '#000',
   }
 
