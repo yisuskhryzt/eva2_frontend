@@ -52,11 +52,6 @@ El objetivo fue modernizar el sitio original ([https://municholchol.cl](https://
 - Eventos de interacción con el usuario (clics, despliegues dinámicos).
 - Estilo visual coherente con jerarquía tipográfica y colores consistentes.
 
-## ⚠️ Limitaciones
-
-- No incluye validaciones funcionales en formularios.
-- Implementación básica de accesibilidad (sin etiquetas ARIA).
-- No cuenta con rutas o navegación avanzada.
 
 ## 📄 Licencia
 
